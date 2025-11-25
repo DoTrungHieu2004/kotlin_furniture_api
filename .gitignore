@@ -1,0 +1,106 @@
+# -----------------------------------------
+# Node.js
+# -----------------------------------------
+
+# Dependencies
+node_modules/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Node REPL history
+.node_repl_history
+
+# Build outputs
+dist/
+build/
+out/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directories (nyc, jest)
+coverage/
+.nyc_output/
+
+# PM2 logs
+.pm2/logs/
+
+# -----------------------------------------
+# Environment / Secrets
+# -----------------------------------------
+
+# dotenv environment variables
+.env
+.env.*
+
+# -----------------------------------------
+# MongoDB
+# -----------------------------------------
+
+# Local MongoDB data directory (if using local database)
+data/
+dump/
+*.bson
+*.metadata.json
+
+# -----------------------------------------
+# OS and Editor Files
+# -----------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs (WebStorm)
+.idea/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# -----------------------------------------
+# Misc
+# -----------------------------------------
+
+# Cache directories
+.cache/
+.parcel-cache/
+.next/
+.svelte-kit/
+
+# TypeScript
+*.tsbuildinfo
+
+# Multer uploads
+public/uploads
